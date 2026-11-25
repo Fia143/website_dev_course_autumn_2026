@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+
+    <style>
+      h2 {
+        color: green;
+      }
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1 style="color: black;">Hi, I'm Fatima</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#layouts">Layouts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a First year Bachelor's student at Laurea AMK. I moved to Finland last year.
+          I love swimming and reading.
+          I spend most of time either reading or exploring new places and things.
+        </p>
+        <img src="cars.jpg" alt="A photo of two cars" width="300" class="filter-image">
+
+        <h3>My Hobbies</h3>
+        <ul>
+          <li>Swimming</li>
+          <li>Reading</li>
+          <li>Different sports</li>
+        </ul>
+
+        <h3>My Favorite Website</h3>
+        <p><a href="https://harrastukset.hel.fi/en/search">Explore hobbies</a></p>
+      </section>
+
+      <section id="courses">
+        <h2>My Courses</h2>
+        <table>
+          <tr>
+            <th>Course</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Web site Development</td>
+            <td>Ongoing</td>
+          </tr>
+          <tr>
+            <td>Basics of Digital Service</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Finnish 2</td>
+            <td>Ongoing</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="layouts">
+        <h2>Layout Examples</h2>
+
+        <h3>Grid Layout</h3>
+        <div class="grid-container">
+          <div class="grid-item">1</div>
+          <div class="grid-item">2</div>
+          <div class="grid-item">3</div>
+          <div class="grid-item">4</div>
+          <div class="grid-item">5</div>
+          <div class="grid-item">6</div>
+        </div>
+
+        <h3>Flexbox Layout</h3>
+        <div class="flex-container">
+          <div class="box">Box 1</div>
+          <div class="box">Box 2</div>
+          <div class="box">Box 3</div>
+        </div>
+
+        <h3>Media Query</h3>
+        <div class="responsive-box">Resize the window to see the effect</div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2026</p>
+    </footer>
+  </body>
+</html>
